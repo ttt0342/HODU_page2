@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HODU</title>
+    <link rel="stylesheet" href="HODU.css">
+
+</head>
+<body>
+<header>
+    <nav>
+        <img src="Group.png" alt="" class="Hodu_logo">
+        <a href="" class="nav_click">Home</a>
+        <a href="" class="nav_click">About</a>
+        <a href="" class="nav_click">Support</a>
+        <button class="Download_button">Download</button>
+    </nav>
+    <section class="box_cat_background">
+        <h1 class="box_cat_title">
+            Lorem Ipsum is simply
+            dummy text of the printing and
+        </h1>
+        <p class="box_cat_text">
+            Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown
+        </p>
+        <button class="box_cat_Download_button">Download</button>
+        <img src="고양이%201.png" alt="머리에 상자를 쓰고 있는 고양이 사진" class="box_cat">
+    </section>
+</header>
+
+<main>
+    <section class="bed_cat_section">
+        <img src="img_4.png" alt="침대 위에 누워있는 고양이 사진" class="bed_cat">
+        <div>
+            <h2 class="bed_cat_title">
+                    Lorem Ipsum is simply
+                    dummy text of the printing and dummy text
+            </h2>
+            <p class="bed_cat_text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+        </div>
+    </section>
+        <h2 class="orange_title">
+                dummy text of the printing and dummy
+        </h2>
+        <p class="orange_text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard <span style="color: #D97652">dummy text</span> ever since the 1500s, when an unknown
+        </p>
+    <section class="cat">
+        <img src="img_1%20(1).png" alt="캣타워에 위에 있는 고양이 사진" class="cats">
+        <img src="img_2(1).png" alt="벽을 보고 앉아있는 고양이 사진" class="cats">
+        <img src="img_3(1).png" alt="바닥에 앉아있는 고양이 사진" class="cats">
+        <img src="img_1.png" alt="고양이 얼굴을 가까이 찍은 사진" class="cats">
+        <img src="img_2.png" alt="바닥에 서서 올려다보는 고양이 사진" class="cats">
+        <img src="img_3.png" alt="하품하는 고양이 사진" class="cats">
+    </section>
+
+    <section class="show_more">
+        <p class="show_more_text"><strong>Continue exploring HODU</strong></p>
+        <button class="show_more_button">Show more</button>
+    </section>
+
+    <section class="map_section">
+                <img src="Rectangle%204.png" alt="" class="line">
+                <h2 class="map_title">Where you’ll be</h2>
+                <p class="map_adress">330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+                <div class="map"></div>
+    </section>
+    <section class="email">
+        <div class="email_box">
+            <h2 class="email_title">Subscribe to our Blog post</h2>
+            <p class="email_text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text </p>
+        </div>
+        <div class="email_input">
+            <input type="text" class="email_input_text" placeholder="Enter your e-mail address">
+            <button class="subscribe_button">Subscribe</button>
+                <div class="modal">
+                    <img src="cat%201.png" alt="고양이 얼굴 사진" class="modal_cat">
+                    <h3 class="modal_title">Thank you!</h3>
+                    <p class="modal_text">Lorem Ipsum is simply dummy text of the printing industry. </p>
+                    <button class="modal_button">OK! I Love HODU</button>
+                </div>
+        </div>
+    </section>
+    <script>
+        const modal = document.querySelector('.modal');
+        const subscribe_button=document.querySelector('.subscribe_button');
+        const modal_button=document.querySelector('.modal_button')
+
+        subscribe_button.addEventListener("click", ()=>{
+            modal.style.display='block';
+        });
+
+        modal_button.addEventListener("click", ()=>{
+            modal.style.display='none';
+        });
+    </script>
+    <section>
+            <div class="cat_frame">
+                <img src="img_5.png" alt="" class="cat_frame_image">
+            </div>
+    </section>
+</main>
+
+<footer>
+    <img src="Group.png" alt="" class="footer_logo">
+    <a href=""><img src="icon-blog.png" alt="" class="hodu_icon"></a>
+    <a href=""><img src="icon-insta.png" alt="" class="hodu_icon"></a>
+    <a href=""><img src="icon-facebook.png" alt="" class="hodu_icon"></a>
+    <a href=""><img src="icon-youtube.png" alt="" class="hodu_icon"></a>
+</footer>
+</body>
+</html>
